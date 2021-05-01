@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Youtube2MP3
+Comment=Convert Youtube Videos to MP3
+Exec=/home/pi/Downloads/youtube2mp3/youtube2mp3.sh
+Icon=/home/pi/Downloads/youtube2mp3/youtube2mp3.png
+Path=/home/pi/Downloads/youtube2mp3/
+Terminal=false
+StartupNotify=false
+Categories=AudioVideo;Audio;
