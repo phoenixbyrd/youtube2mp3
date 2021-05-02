@@ -9,7 +9,7 @@ trap "rm -f $YAD_NOTIF" EXIT
 
 
 function set_notification_quit() {
-  echo "menu:Quit!quit!gtk-quit"
+  echo "menu:Update!bash -c './update.sh'!download|Quit!quit!gtk-quit"
 }
 
 exec 3<> $YAD_NOTIF
@@ -28,7 +28,5 @@ set_notification_quit >&3
 wait $notifpid
 
 exec 3>&-
-
-pkill -9 roll.sh
 
 exit 0
