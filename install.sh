@@ -29,4 +29,8 @@ sudo chmod +x /opt/youtube2mp3/update.sh
 
 cp -r .git/ /opt/youtube2mp3
 
+sudo cp README.md /opt/youtube2mp3
+sudo cp install.sh /opt/youtube2mp3
+sudo cp Youtube2MP3.desktop /opt/youtube2mp3
+
 yad --window-icon=/opt/youtube2mp3/youtube2mp3.png --title="" --text-align=center --text="Youtube2MP3 Installed" --button=OK:0 --width=200
